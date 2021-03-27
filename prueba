@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prueba MakeItReal - Miguel J. Zambrano G.</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-size: 100%;
+            font-weight: normal;
+        }
+
+        body{
+            background-image:url(background.jpg);
+            font-family:'Dela Gothic One',Arial, Helvetica, sans-serif;
+            color:#ffff;
+            padding-top: 12%;
+        }
+
+        img{
+            border-radius:50%;
+            border:5px solid #ffff;
+            display:block;
+            margin:auto;
+        }
+
+        .texto{
+            display:block;
+            margin:auto;
+            text-align: center;
+        }
+
+        .nombre{
+            font-size: 30px;
+            padding-top: 30px;
+        }
+
+        .ciudad{
+            font-size: 20px;
+            padding-top: 30px;
+        }   
+    </style>
+</head>
+<body>
+    <img src="foto.png">
+
+    <div class="texto">
+        <p class="nombre">Miguel J. Zambrano Gutiérrez</p>
+        <p class="ciudad">Soledad - Atlántico</p>
+    </div>
+</body>
+</html>
